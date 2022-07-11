@@ -8,14 +8,6 @@ app = Flask(__name__)
 
 # Load the model
 model = pickle.load(open('model.pkl','rb'))
-# myvar = [{'This': 'is', 'Example': 2}, 'of',
-#          'serialisation', ['using', 'pickle']]
-         
-# with open('model.pkl','wb') as model:
-#     pickle.dump([1,2,3],model)
-
-#model = pickle.load( open('model.pkl','rb'))
-
 
 labels ={
   0: "versicolor",   
